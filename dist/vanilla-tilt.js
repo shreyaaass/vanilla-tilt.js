@@ -161,7 +161,7 @@ class VanillaTilt {
         this.betazero = (event.beta + this.lastbetazero) / 2;
       }
 
-      this.gyroscopeSamples -= 1;
+      this.gyroscopeSamples -= +1;
     }
 
     const totalAngleX = this.settings.gyroscopeMaxAngleX - this.settings.gyroscopeMinAngleX;
